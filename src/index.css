@@ -1,0 +1,78 @@
+.body{
+    overflow-y: hidden;
+}
+.messages{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.typ{
+    background-color: rgb(226, 224, 224);
+    color: black;
+    width:fit-content;
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+
+}
+.notification{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    padding: 2px;
+    font-size: 12px;
+    align-content: center;
+
+   margin-top: -30px;
+   margin-left: 10px;
+   
+}
+.title{
+    font-size: 40px;
+    font-family: monospace;
+    color: white;
+    font-weight:900;
+    background-color: #1e3453;
+    padding: 5px 20px;
+    border-radius: 20px;
+ 
+ }
+
+
+
+.send{
+    color:#1e3453 ;
+    font-size: 20px;
+    position:absolute;
+    bottom: 2.2%;
+    right: 4%;
+    padding: 2px 8px;
+   
+}
+.input{
+    width: 100%;
+    padding-left:5px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.input::placeholder{
+    padding-left: 20px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .send{
+        bottom: 1.7%;
+        right: 8%;
+    }
+  }
