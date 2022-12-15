@@ -1,1 +1,1 @@
-export const BASE_URL = "https://chatapp-design.herokuapp.com/"
+export const BASE_URL = "https://zotext.onrender.com/"

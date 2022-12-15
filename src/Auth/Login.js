@@ -84,10 +84,10 @@ const loginHandler=async()=>{
        &nbsp;<label className="form-check-label" for="flexCheckDefault">
           Show Password
       </label>
-     <p style={{cursor:"pointer",paddingLeft:"90px"}} className="text-primary" onClick={()=>{
+     {/* <p style={{cursor:"pointer",paddingLeft:"90px"}} className="text-primary" onClick={()=>{
         setEmail("demo@gmail.com");
         setPassword("123")
-      }}>Demo Account</p>
+      }}>Demo Account</p> */}
    </div>
       <div className='d-grid gap-2 col-6 mx-auto mt-4'>
       <Button
